@@ -97,7 +97,7 @@ body {
         transform: translate(-50%, 0);
         z-index: 15;
         cursor: pointer;
-        width: 19%;
+        width: 22%;
         height: auto;
     }
     .clickable-darkdoor-link {
@@ -107,7 +107,7 @@ body {
         transform: translate(-50%, 0);
         z-index: 15;
         cursor: pointer;
-        width: 30%;
+        width: 35%;
         height: auto;
     }
     .door-image {
