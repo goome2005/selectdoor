@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.actual-door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.main-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.libraryelev-door {
+    position: absolute;
+    top: 28%;
+    left: 49%;
+    width: 8.5%;
+    height: 35%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.libraryrr-door img {
+    position: absolute;
+    top: 18%;
+    left: 49%;
+    width: 26%;
+    height: 51%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.wood-door {
+    position: absolute;
+    top: 31.5%;
+    right: 39%;
+    width: 6%;
+    height: 35%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.bright-door {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 9%;
+    height: 35%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.locker-door {
+    position: absolute;
+    top: 29%;
+    left: 49%;
+    width: 11%;
+    height: 40%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.pink-door {
+    position: absolute;
+    top: 26.5%;
+    left: 46.5%;
+    width: 10%;
+    height: 35%;
+    z-index: 10;
+}
+.dark-door {
+    position: absolute;
+    top: 34%;
+    left: 48%;
+    width: 8%;
+    height: 35%;
+    z-index: 10;
+}
+.split-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.bottom-text-container {
+    width: 100%;
+    text-align: center;
+    padding: 1vh 0;
+    position: absolute;
+    bottom: 7%;
+    z-index: 20;
+}
+.page-caption {
+    color: #574E42;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    background: none;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+@media screen and (max-width: 700px) {
+
+    .libraryelev-door {
+        top: 34%;
+        width: 10%;
+        height: 30%;
+    }
+    .libraryrr-door img {
+        top: 15%;
+        width: 26%;
+        height: 60%;
+    }
+    .wood-door {
+        top: 34%;
+        width: 9%;
+        height: 30%;
+    }
+    .bright-door {
+        top: 37%;
+        width: 12%;
+        height: 30%;
+    }
+    .locker-door {
+        top: 31%;
+        width: 20%;
+        height: 35%;
+    }
+    .pink-door {
+        top: 31%;
+        width: 13%;
+        height: 30%;
+    }
+    .dark-door {
+        top: 35%;
+        width: 10%;
+        height: 30%;
+    }
+}

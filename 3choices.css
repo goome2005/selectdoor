@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    background-image: url('corridorimg/3choices.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #000000;
+}
+.actual-door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.door-link {
+    position: absolute;
+    z-index: 10;
+}
+.left-door {
+    top: 34%;
+    left: 15.5%;
+    width: 12%;
+    height: 35%;
+    transform: translateX(-50%);
+}
+.middle-door {
+    top: 34%;
+    left: 48%;
+    width: 5%;
+    height: 35%;
+    transform: translateX(-50%);
+}
+.right-door {
+    top: 33%;
+    right: 13%;
+    width: 9%;
+    height: 35%;
+}
+.bottom-text-container {
+    width: 100%;
+    text-align: center;
+    padding: 1vh 0;
+    position: absolute;
+    bottom: 7%;
+    z-index: 20;
+}
+.page-caption {
+    color: #574E42;
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    background: none;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url('corridorimg/3choicesmobile.png');
+    }
+    .left-door {
+        top: 6%;
+        left: 48.5%;
+        width: 15%;
+        height: 25%;
+        transform: translateX(-50%);
+    }
+    .middle-door {
+        top: 38%;
+        left: 48%;
+        width: 8%;
+        height: 25%;
+        transform: translateX(-50%);
+    }
+    .right-door {
+        top: 72%;
+        left: 39%;
+        width: 20%;
+        height: 25%;
+    }
+    .page-caption {
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,132 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.top-text, .bottom-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-shadow: none;
+    z-index: 10;
+}
+.top-text {
+    top: 5vh;
+    font-size: 1.8em;
+}
+.bottom-text {
+    bottom: 3vh;
+    font-size: 1.5em;
+}
+
+.clickable-door-link {
+    position: absolute;
+    top: 41%;
+    left: 51%;
+    transform: translate(-50%, 0);
+    z-index: 15;
+    cursor: pointer;
+    width: 10%;
+    height: auto;
+}
+.clickable-darkdoor-link {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 15;
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+}
+.door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.darkdoor-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* 🚨 제거됨: 마우스 오버 시 이미지 확대 및 밝기 효과 */
+/* .clickable-door-link:hover .door-image { } */
+/* .clickable-darkdoor-link:hover .door-image { } */
+
+.bottom-text-container {
+    width: 100%;
+    text-align: center;
+    padding: 1vh 0;
+    position: absolute;
+    bottom: 7%;
+    z-index: 20;
+}
+.page-caption {
+    color: #574E42;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+@media screen and (max-width: 900px) {
+
+    .clickable-door-link {
+        position: absolute;
+        top: 41%;
+        left: 52%;
+        transform: translate(-50%, 0);
+        z-index: 15;
+        cursor: pointer;
+        width: 15%;
+        height: auto;
+    }
+    .clickable-darkdoor-link {
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 15;
+        cursor: pointer;
+        width: 20%;
+        height: auto;
+    }
+    .door-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+    .darkdoor-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    background: none;
+    color

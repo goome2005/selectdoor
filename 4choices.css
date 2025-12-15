@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    background-image: url('corridorimg/4choices.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #000000;
+}
+.actual-door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.door-link {
+    position: absolute;
+    z-index: 10;
+}
+.left-door {
+    position: absolute;
+    top: 34%;
+    left: 13%;
+    width: 11.5%;
+    height: 35%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.leftmiddle-door {
+    position: absolute;
+    top: 35%;
+    left: 39.3%;
+    width: 10%;
+    height: 35%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.rightmiddle-door {
+    position: absolute;
+    top: 33%;
+    left: 59%;
+    width: 10%;
+    height: 35%;
+    z-index: 10;
+}
+.right-door {
+    position: absolute;
+    top: 34%;
+    right: 8%;
+    width: 9%;
+    height: 35%;
+    z-index: 10;
+}
+.bottom-text-container {
+    width: 100%;
+    text-align: center;
+    padding: 1vh 0;
+    position: absolute;
+    bottom: 7%;
+    z-index: 20;
+}
+.page-caption {
+    color: #574E42;
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    background: none;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url('corridorimg/4choicesmobile.png');
+    }
+    .left-door {
+        top: -1%;
+        left: 52%;
+        width: 18%;
+        height: 30%;
+        transform: translateX(-50%);
+    }
+    .leftmiddle-door {
+        top: 22%;
+        left: 50%;
+        width: 18%;
+        height: 30%;
+        transform: translateX(-50%);
+    }
+    .rightmiddle-door {
+        top: 48%;
+        left: 42%;
+        width: 17%;
+        height: 30%;
+    }
+    .right-door {
+        top: 75%;
+        left: 45%;
+        width: 13%;
+        height: 30%;
+    }
+    .page-caption {
+        font-size: 0.9em;
+    }
+}
