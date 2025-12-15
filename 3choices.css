@@ -78,22 +78,22 @@ footer p {
     }
     .left-door {
         top: 6%;
-        left: 48.5%;
+        left: 47%;
         width: 15%;
         height: 25%;
         transform: translateX(-50%);
     }
     .middle-door {
         top: 38%;
-        left: 48%;
+        left: 47%;
         width: 8%;
         height: 25%;
         transform: translateX(-50%);
     }
     .right-door {
         top: 72%;
-        left: 39%;
-        width: 20%;
+        left: 36.5%;
+        width: 24%;
         height: 25%;
     }
     .page-caption {
