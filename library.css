@@ -80,40 +80,47 @@ body {
     border-radius: 8px;
     padding: 5px 15px;
 }
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    background: none;
+    color
+}
 @media screen and (max-width: 900px) {
 
-.clickable-door-link {
-    position: absolute;
-    top: 43%;
-    left: 52.5%;
-    transform: translate(-50%, 0);
-    z-index: 15;
-    cursor: pointer;
-    width: 22%;
-    height: auto;
-}
-.clickable-darkdoor-link {
-    position: absolute;
-    top: 41%;
-    left: 49.5%;
-    transform: translate(-50%, 0);
-    z-index: 15;
-    cursor: pointer;
-    width: 35%;
-    height: auto;
-}
-.door-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-.darkdoor-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
+    .clickable-door-link {
+        position: absolute;
+        top: 43%;
+        left: 52.5%;
+        transform: translate(-50%, 0);
+        z-index: 15;
+        cursor: pointer;
+        width: 22%;
+        height: auto;
+    }
+    .clickable-darkdoor-link {
+        position: absolute;
+        top: 41%;
+        left: 49.5%;
+        transform: translate(-50%, 0);
+        z-index: 15;
+        cursor: pointer;
+        width: 35%;
+        height: auto;
+    }
+    .door-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+    .darkdoor-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
 }
 footer {
     width: 100%;
