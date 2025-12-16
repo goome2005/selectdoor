@@ -5,7 +5,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 .main-background {
     width: 100%;
     height: 100%;
@@ -15,7 +14,6 @@ body {
     left: 0;
     z-index: 1;
 }
-
 .top-text, .bottom-text {
     position: absolute;
     width: 100%;
@@ -32,7 +30,6 @@ body {
     bottom: 3vh;
     font-size: 1.5em;
 }
-
 .clickable-door-link {
     position: absolute;
     top: 41%;
@@ -65,11 +62,6 @@ body {
     object-fit: contain;
     display: block;
 }
-
-/* 🚨 제거됨: 마우스 오버 시 이미지 확대 및 밝기 효과 */
-/* .clickable-door-link:hover .door-image { } */
-/* .clickable-darkdoor-link:hover .door-image { } */
-
 .bottom-text-container {
     width: 100%;
     text-align: center;
@@ -90,43 +82,43 @@ body {
 }
 @media screen and (max-width: 900px) {
 
-    .clickable-door-link {
-        position: absolute;
-        top: 43%;
-        left: 52.5%;
-        transform: translate(-50%, 0);
-        z-index: 15;
-        cursor: pointer;
-        width: 22%;
-        height: auto;
-    }
-    .clickable-darkdoor-link {
-        position: absolute;
-        top: 41%;
-        left: 49.5%;
-        transform: translate(-50%, 0);
-        z-index: 15;
-        cursor: pointer;
-        width: 35%;
-        height: auto;
-    }
-    .door-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        display: block;
-    }
-    .darkdoor-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        display: block;
-    }
+.clickable-door-link {
+    position: absolute;
+    top: 43%;
+    left: 52.5%;
+    transform: translate(-50%, 0);
+    z-index: 15;
+    cursor: pointer;
+    width: 22%;
+    height: auto;
 }
-
+.clickable-darkdoor-link {
+    position: absolute;
+    top: 41%;
+    left: 49.5%;
+    transform: translate(-50%, 0);
+    z-index: 15;
+    cursor: pointer;
+    width: 35%;
+    height: auto;
+}
+.door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.darkdoor-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+}
 footer {
     width: 100%;
     text-align: center;
     padding-bottom: 15px;
     background: none;
     color
+}
