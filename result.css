@@ -157,9 +157,9 @@ footer p {
 }
 
 .library-door {
-    top: 41.3%;
-    left: 57.2%;
-    width: 4.2%;
+    top: 40%;
+    left: 65%;
+    width: 9%;
     height: 30%;
     transform: translateX(-50%);
 }
