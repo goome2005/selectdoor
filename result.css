@@ -5,82 +5,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-.actual-door-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-.main-background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.libraryelev-door {
-    position: absolute;
-    top: 26%;
-    left: 49%;
-    width: 8.5%;
-    height: 35%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.libraryrr-door img {
-    position: absolute;
-    top: 18%;
-    left: 49%;
-    width: 26%;
-    height: 51%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.wood-door {
-    position: absolute;
-    top: 31.5%;
-    right: 39%;
-    width: 6%;
-    height: 35%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.bright-door {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    width: 9%;
-    height: 35%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.locker-door {
-    position: absolute;
-    top: 29%;
-    left: 49%;
-    width: 11%;
-    height: 40%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.pink-door {
-    position: absolute;
-    top: 26.5%;
-    left: 46.5%;
-    width: 10%;
-    height: 35%;
-    z-index: 10;
-}
-.dark-door {
-    position: absolute;
-    top: 34%;
-    left: 48%;
-    width: 8%;
-    height: 35%;
-    z-index: 10;
-}
+
 .split-image {
     width: 100%;
     height: 100%;
@@ -90,6 +15,75 @@ body {
     left: 0;
     z-index: 1;
 }
+
+.door-link {
+    display: block; /* 링크 영역을 활성화 */
+    position: absolute;
+    z-index: 10;
+}
+
+/* 갤러리 문 위치 및 크기 */
+.gallery-door {
+    top: 44.5%;
+    left: 50.2%;
+    width: 8.7%;
+    height: 25%;
+    transform: translateX(-50%);
+}
+.artrest-door {
+    top: 33.5%;
+    left: 51.5%;
+    width: 10%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.craft-door {
+    top: 33.2%;
+    left: 50.4%;
+    width: 9.8%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.library-door {
+    top: 41.3%;
+    left: 57.2%;
+    width: 4.2%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.classroom-door {
+    top: 24.7%;
+    left: 55.6%;
+    width: 5%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.lounge-door {
+    top: 33.5%;
+    left: 51%;
+    width: 7.8%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+.library1-door {
+    top: 31%;
+    left: 51.5%;
+    width: 10.3%;
+    height: 50%;
+    transform: translateX(-50%);
+}
+
+.actual-door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 .bottom-text-container {
     width: 100%;
     text-align: center;
@@ -98,6 +92,7 @@ body {
     bottom: 7%;
     z-index: 20;
 }
+
 .page-caption {
     color: #574E42;
     margin: 0;
@@ -105,4 +100,36 @@ body {
     font-weight: normal;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 8px;
+    border-radius: 0;
+    padding: 5px 15px; /* 패딩 추가 */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* 반응형 모바일 설정 */
+@media screen and (max-width: 900px) {
+    .gallery-door {
+        top: 35%;
+        width: 25%;
+        height: 35%;
+        left: 50%;
+    }
+    
+    .page-caption {
+        font-size: 0.9em;
+        width: 80%;
+    }
+}
