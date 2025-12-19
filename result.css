@@ -133,3 +133,72 @@ footer p {
         width: 80%;
     }
 }
+.gallery-door {
+    top: 44.5%;
+    left: 50.2%;
+    width: 8.7%;
+    height: 25%;
+    transform: translateX(-50%);
+}
+.artrest-door {
+    top: 33.5%;
+    left: 54%;
+    width: 12%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.craft-door {
+    top: 33.2%;
+    left: 50.4%;
+    width: 20%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.library-door {
+    top: 41.3%;
+    left: 57.2%;
+    width: 4.2%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.classroom-door {
+    top: 27%;
+    left: 63%;
+    width: 10%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+
+.lounge-door {
+    top: 33.5%;
+    left: 51%;
+    width: 7.8%;
+    height: 30%;
+    transform: translateX(-50%);
+}
+.library1-door {
+    top: 29%;
+    left: 56;
+    width: 20%;
+    height: 50%;
+    transform: translateX(-50%);
+}
+
+.actual-door-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.bottom-text-container {
+    width: 100%;
+    text-align: center;
+    padding: 1vh 0;
+    position: absolute;
+    bottom: 7%;
+    z-index: 20;
+}
