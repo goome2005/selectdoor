@@ -142,7 +142,7 @@ footer p {
 }
 .artrest-door {
     top: 33.5%;
-    left: 54%;
+    left: 51.5%;
     width: 12%;
     height: 30%;
     transform: translateX(-50%);
@@ -157,9 +157,9 @@ footer p {
 }
 
 .library-door {
-    top: 40%;
-    left: 65%;
-    width: 9%;
+    top: 41%;
+    left: 57.5%;
+    width: 4%;
     height: 30%;
     transform: translateX(-50%);
 }
