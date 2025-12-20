@@ -151,7 +151,7 @@ footer p {
 .craft-door {
     top: 33.2%;
     left: 50.4%;
-    width: 21.5%;
+    width: 10%;
     height: 30%;
     transform: translateX(-50%);
 }
@@ -165,9 +165,9 @@ footer p {
 }
 
 .classroom-door {
-    top: 27%;
-    left: 63%;
-    width: 10%;
+    top: 25%;
+    left: 55.4%;
+    width: 5%;
     height: 30%;
     transform: translateX(-50%);
 }
