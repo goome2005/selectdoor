@@ -78,14 +78,14 @@ footer p {
     }
     .left-door {
         top: 6%;
-        left: 47%;
+        left: 46%;
         width: 15%;
         height: 25%;
         transform: translateX(-50%);
     }
     .middle-door {
         top: 38%;
-        left: 47%;
+        left: 46%;
         width: 8%;
         height: 25%;
         transform: translateX(-50%);
@@ -93,7 +93,7 @@ footer p {
     .right-door {
         top: 72%;
         left: 36.5%;
-        width: 24%;
+        width: 25%;
         height: 25%;
     }
     .page-caption {
