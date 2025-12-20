@@ -17,11 +17,12 @@ body {
 }
 
 .door-link {
-    display: block; 
+    display: block; /* 링크 영역을 활성화 */
     position: absolute;
     z-index: 10;
 }
 
+/* 갤러리 문 위치 및 크기 */
 .gallery-door {
     top: 44.5%;
     left: 50.2%;
@@ -119,7 +120,7 @@ footer p {
 }
 
 /* 반응형 모바일 설정 */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .gallery-door {
         top: 35%;
         width: 25%;
@@ -180,7 +181,7 @@ footer p {
 }
 .library1-door {
     top: 29%;
-    left: 56%;
+    left: 56;
     width: 20%;
     height: 50%;
     transform: translateX(-50%);
