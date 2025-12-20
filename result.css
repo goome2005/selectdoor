@@ -17,12 +17,11 @@ body {
 }
 
 .door-link {
-    display: block; /* 링크 영역을 활성화 */
+    display: block; 
     position: absolute;
     z-index: 10;
 }
 
-/* 갤러리 문 위치 및 크기 */
 .gallery-door {
     top: 44.5%;
     left: 50.2%;
